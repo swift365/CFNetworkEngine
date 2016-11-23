@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.2.0)
+  - CFNetworkEngine (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - CFNetworkEngine (from `../`)
+
+EXTERNAL SOURCES:
+  CFNetworkEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  CFNetworkEngine: 00635c6fbe094d9f2ec1285f9fb941c40005a4dc
+
+PODFILE CHECKSUM: 898e654cf808276287a28b6b29f8d4c111c2d27f
+
+COCOAPODS: 1.1.1
