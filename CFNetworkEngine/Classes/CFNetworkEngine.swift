@@ -64,8 +64,8 @@ public class CFNetworkEngine {
         config.httpAdditionalHeaders = headers
         config.requestCachePolicy = NSURLRequest.CachePolicy.reloadIgnoringCacheData //忽略本地缓存
         config.urlCache = cache
-        config.timeoutIntervalForRequest = 20
-        config.timeoutIntervalForResource = 20
+        config.timeoutIntervalForRequest = 60
+        config.timeoutIntervalForResource = 60
         let manager = Alamofire.SessionManager(configuration: config)
         
         manager.request(url, method: _method, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
